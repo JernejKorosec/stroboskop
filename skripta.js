@@ -27,6 +27,12 @@ window.addEventListener('load', function() {
 	var spremeniBarvo = function(id) {
 		document.getElementById("stroboskop").style.backgroundColor = "#"+vrednosti[id];
 
+
+		minimum = document.querySelector("#min"); 
+		maximum = document.querySelector("#max"); 
+		minCas = min.value;
+		maxCas = max.value;
+
 		if (ustavi) {
 			ustavi = false;
 		} else {
